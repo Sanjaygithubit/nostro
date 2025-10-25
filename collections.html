@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Nostra</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <div class="filters">
+                <h3>Filter by Category</h3>
+                <label><input type="checkbox" value="shoes"> Shoes</label>
+                <label><input type="checkbox" value="clothing"> Clothing</label>
+                <label><input type="checkbox" value="accessories"> Accessories</label>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Our Collections</h2>
+            <div id="productGrid" class="product-grid">
+                <!-- Products will be dynamically inserted here via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nostra. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
